@@ -11,11 +11,14 @@
   "author": "siddharth bhawalkar",
   "license": "MIT",
   "dependencies": {
+    "colors": "^1.4.0",
     "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "mongodb": "^3.6.6",
     "mongoose": "^5.12.7",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "node-geocoder": "^3.27.0",
+    "slugify": "^1.5.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.7"
