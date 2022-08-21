@@ -16,7 +16,9 @@ const connectDB = require('./config/db');
 const path = require('path');
 
 // Load env vars
-dotenv.config({ path: './config/config.env'});
+// dotenv.config({ path: './config/config.env'});
+// Refer ./config/config.env for sample env values
+dotenv.config();
 
 // Connect to DB
 connectDB();
